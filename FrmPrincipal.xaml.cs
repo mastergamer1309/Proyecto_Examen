@@ -28,7 +28,7 @@ namespace Proyecto_Examen
         private void BtnNuevoAnalisis_Click(object sender, RoutedEventArgs e)
         {
             FrmCalculos frmcalculos = new FrmCalculos();
-            frmcalculos.Show();
+            
         }
     }
 }
