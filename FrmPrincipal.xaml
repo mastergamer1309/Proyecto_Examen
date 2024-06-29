@@ -10,13 +10,13 @@
 
     <Grid>
         <Grid Background="Black">
-            <Label x:Name="LblTitulo" Content="Análisis del Costo-Volumen-Utilidad(CVU)" HorizontalAlignment="Left" Margin="338,34,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="Britannic Bold" Foreground="White"/>
-            <Grid Margin="0,0,574,10" Background="#FFA5A5A5" Height="381" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="216">
-                <Button x:Name="BtnNuevoAnalisis" Content="Nuevo Análisis" HorizontalAlignment="Center" Margin="0,22,0,0" VerticalAlignment="Top" Height="49" Width="196" FontFamily="Britannic Bold" FontSize="18" Background="White" Click="BtnNuevoAnalisis_Click"/>
-                <Button x:Name="BtnGuardados" Content="Guardados" HorizontalAlignment="Center" Margin="0,160,0,0" VerticalAlignment="Top" Height="49" Width="196" FontFamily="Britannic Bold" FontSize="18" Background="White"/>
-                <Button x:Name="BtnSalir" Content="Salir" HorizontalAlignment="Center" Margin="0,308,0,0" VerticalAlignment="Top" Height="49" Width="196" FontFamily="Britannic Bold" FontSize="18" Background="White"/>
+            <Grid Margin="574,0,0,0" Background="#FFA5A5A5" Height="430" VerticalAlignment="Center" HorizontalAlignment="Left" Width="216">
+                <Button x:Name="BtnGuardados" Content="Cálculo del CVU" HorizontalAlignment="Center" VerticalAlignment="Center" Height="73" Width="196" FontFamily="Britannic Bold" FontSize="18" Background="White"/>
+                <Button x:Name="BtnSalir" Content="Salir" HorizontalAlignment="Center" Margin="0,324,0,0" VerticalAlignment="Top" Height="76" Width="196" FontFamily="Britannic Bold" FontSize="18" Background="White"/>
+                <Button x:Name="BtnSalir_Copy" Content="Presupuesto Maestro" HorizontalAlignment="Center" Margin="0,31,0,0" VerticalAlignment="Top" Height="75" Width="196" FontFamily="Britannic Bold" FontSize="18" Background="White"/>
             </Grid>
-            <Image Margin="367,177,85,55" Source="/Image1.png" Stretch="Fill"/>
+            <Image Margin="81,153,330,53" Source="/Image1.png" Stretch="Fill"/>
+            <Label Content="Bienvenido, Seleccione la Acción a Realizar " HorizontalAlignment="Left" Margin="28,32,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial Black" FontSize="20"/>
 
         </Grid>
 
