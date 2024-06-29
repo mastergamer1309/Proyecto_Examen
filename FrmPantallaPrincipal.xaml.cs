@@ -10,25 +10,29 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Proyecto_Examen
 {
     /// <summary>
-    /// Interaction logic for FrmPrincipal.xaml
+    /// Interaction logic for FrmPantallaPrincipal.xaml
     /// </summary>
-    public partial class FrmPrincipal : Page
+    public partial class FrmPantallaPrincipal : Window
     {
-        public FrmPrincipal()
+        public FrmPantallaPrincipal()
         {
             InitializeComponent();
         }
 
-        private void BtnNuevoAnalisis_Click(object sender, RoutedEventArgs e)
+        private void BtnPresupuestoMaestro_Click(object sender, RoutedEventArgs e)
         {
-            FrmCalculos frmcalculos = new FrmCalculos();
+            FrmPantallaPrincipal frmPantallaPrincipal = new FrmPantallaPrincipal();
+            FrmPresupuestoMaestro frmPresupuestoMaestro = new FrmPresupuestoMaestro();
+
+            frmPresupuestoMaestro.Show();
             
+            this.Close();
+
         }
     }
 }

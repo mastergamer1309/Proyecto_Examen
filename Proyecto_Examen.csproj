@@ -55,15 +55,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="FrmCalculos.xaml">
+    <Page Include="FrmCvu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="FrmGuardados.xaml">
+    <Page Include="FrmPantallaPrincipal.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="FrmPrincipal.xaml">
+    <Page Include="FrmPresupuestoMaestro.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -75,14 +75,14 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="FrmCalculos.xaml.cs">
-      <DependentUpon>FrmCalculos.xaml</DependentUpon>
+    <Compile Include="FrmCvu.xaml.cs">
+      <DependentUpon>FrmCvu.xaml</DependentUpon>
     </Compile>
-    <Compile Include="FrmGuardados.xaml.cs">
-      <DependentUpon>FrmGuardados.xaml</DependentUpon>
+    <Compile Include="FrmPantallaPrincipal.xaml.cs">
+      <DependentUpon>FrmPantallaPrincipal.xaml</DependentUpon>
     </Compile>
-    <Compile Include="FrmPrincipal.xaml.cs">
-      <DependentUpon>FrmPrincipal.xaml</DependentUpon>
+    <Compile Include="FrmPresupuestoMaestro.xaml.cs">
+      <DependentUpon>FrmPresupuestoMaestro.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

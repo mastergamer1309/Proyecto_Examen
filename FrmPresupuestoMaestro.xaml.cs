@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Proyecto_Examen
 {
     /// <summary>
-    /// Interaction logic for FrmGuardados.xaml
+    /// Interaction logic for FrmPresupuestoMaestro.xaml
     /// </summary>
-    public partial class FrmGuardados : Page
+    public partial class FrmPresupuestoMaestro : Window
     {
-        public FrmGuardados()
+        public FrmPresupuestoMaestro()
         {
             InitializeComponent();
         }

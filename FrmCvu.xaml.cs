@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Proyecto_Examen
 {
     /// <summary>
-    /// Interaction logic for FrmCalculos.xaml
+    /// Interaction logic for FrmCvu.xaml
     /// </summary>
-    public partial class FrmCalculos : Page
+    public partial class FrmCvu : Page
     {
-        public FrmCalculos()
+        public FrmCvu()
         {
             InitializeComponent();
         }
