@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Examen"
         mc:Ignorable="d"
-        Title="FrmPantallaPrincipal" Height="450" Width="800">
+        Title="Programa Contable" Height="450" Width="800">
     <Grid>
         <Grid Margin="0,0,0,-16">
             <Grid Background="Black">
@@ -16,7 +16,7 @@
                     <Button x:Name="BtnPresupuestoMaestro" Content="Presupuesto Maestro" HorizontalAlignment="Center" VerticalAlignment="Top" Height="73" Width="196" FontFamily="Britannic Bold" FontSize="18" Background="White" Margin="0,36,0,0" Click="BtnPresupuestoMaestro_Click"/>
                 </Grid>
                 <Image Margin="81,153,330,53" Source="/Image1.png" Stretch="Fill"/>
-                <Label Content="Bienvenido, Seleccione la Acción a Realizar " HorizontalAlignment="Left" Margin="28,32,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial Black" FontSize="20"/>
+                <Label Content="Bienvenid@, Seleccione la Acción a Realizar " HorizontalAlignment="Left" Margin="28,32,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial Black" FontSize="20"/>
 
             </Grid>
 

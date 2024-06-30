@@ -55,7 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="FrmCvu.xaml">
+    <Page Include="FrmCVU.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -75,8 +75,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="FrmCvu.xaml.cs">
-      <DependentUpon>FrmCvu.xaml</DependentUpon>
+    <Compile Include="FrmCVU.xaml.cs">
+      <DependentUpon>FrmCVU.xaml</DependentUpon>
     </Compile>
     <Compile Include="FrmPantallaPrincipal.xaml.cs">
       <DependentUpon>FrmPantallaPrincipal.xaml</DependentUpon>

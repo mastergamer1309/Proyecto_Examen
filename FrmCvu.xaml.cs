@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Proyecto_Examen
 {
     /// <summary>
-    /// Interaction logic for FrmCvu.xaml
+    /// Interaction logic for FrmCVU.xaml
     /// </summary>
-    public partial class FrmCvu : Page
+    public partial class FrmCVU : Window
     {
-        public FrmCvu()
+        public FrmCVU()
         {
             InitializeComponent();
         }
